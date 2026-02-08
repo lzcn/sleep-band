@@ -1,0 +1,9 @@
+defaults:
+  - base
+  - frontend: null
+  - domain_method: null
+
+name: sleep_base
+epoch_encoder: "conv"
+label_smoothing: 0.0
+recon_weight: 0.0 # additional reconstruction loss weight

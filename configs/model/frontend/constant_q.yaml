@@ -1,0 +1,4 @@
+name: constant_q
+in_channels: ${model.in_channels}
+num_filters: 30
+dropout: 0.0

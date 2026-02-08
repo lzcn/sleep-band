@@ -1,0 +1,3 @@
+name: sinc
+in_channels: ${model.in_channels}
+num_filters: 20

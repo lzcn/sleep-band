@@ -1,0 +1,18 @@
+defaults:
+  - frontend: constant_q
+
+name: sleep_band
+
+# ===== Model architecture =====
+in_channels: 2
+d_model: 512
+dropout: 0.1
+num_classes: 5
+epoch_encoder: spectral
+T: 10.0
+data_augmentation: bandwise
+consistency: kl
+beta: 2.0
+momentum: 0.999
+label_smoothing: 0.0
+recon_weight: 0.0 

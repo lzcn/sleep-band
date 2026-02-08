@@ -1,0 +1,13 @@
+# @package _global_
+defaults:
+  - /model: sleep_base
+  - /trainer: base
+  - override /model/domain_method: relcoral
+  - _self_
+
+# sleep DG use reconstruction loss
+model:
+  recon_weight: 0.5
+  label_smoothing: 0.1
+
+project_name: "SleepBase"

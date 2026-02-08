@@ -1,0 +1,5 @@
+name: grouped_constant_q
+in_channels: ${model.in_channels}
+q_groups: [4, 1]
+num_filters: 20
+dropout: 0.0

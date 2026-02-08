@@ -1,0 +1,6 @@
+data_root: "data/processed"
+target_domains: "sleep-edf"
+source_domains: null
+batch_size: 32
+num_workers: 4
+domain_generation: true

@@ -1,0 +1,25 @@
+defaults:
+  - _self_
+  - data: sleep
+  - experiment: sleep_base
+
+# ======= Basic Settings =======
+seed: 0
+cuda: 0
+run_name: "single-source"
+project_name: ???
+
+# ======= Training =======
+sweep_all_domains: source # null | source | target
+epochs: 50
+lr: 0.001
+weight_decay: 0.0001
+clip_value: 1.0
+
+# ======= Logging =======
+use_wandb: false
+use_tensorboard: true
+
+hydra:
+  run:
+    dir: outputs/${project_name}/${run_name}

@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - /model: sleep_base
+  - /trainer: base
+  - _self_
+
+project_name: "SleepBase"
