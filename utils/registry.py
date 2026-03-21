@@ -3,13 +3,11 @@
 # Trainer and model class path registries
 TRAINER_REGISTRY = {
     "base"  : "trainers.base_trainer.BaseTrainer",
-    
 }
 
 MODEL_REGISTRY = {
     "sleep_base" : "models.sleep_base.SleepBase",
     "sleep_band" : "models.sleep_band.SleepBand",
-   
 }
 
 METHOD_REGISTRY = {
